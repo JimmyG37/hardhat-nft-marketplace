@@ -1,0 +1,15 @@
+.vscode
+/node_modules
+.env
+/coverage
+coverage.json
+typechain
+yarn-debug.log*
+yarn-error.log*
+
+#Hardhat files
+cache
+artifacts
+.DS_Store
+gas-report.txt
+deployments
