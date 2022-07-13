@@ -13,7 +13,7 @@ error NftMarketPlace__PriceNotMet(address nftAddress, uint256 tokenId, uint256 p
 error NftMarketPlace__NoProceeds();
 error NftMarketPlace__TransferFailed();
 
-contract NftMarketPlace is ReentrancyGuard {
+contract NftMarketplace is ReentrancyGuard {
     struct Listing {
         uint256 price;
         address seller;
