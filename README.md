@@ -1,3 +1,27 @@
+# Smart contracts for NFT Marketplace
+
+# Usage
+
+> install dependancies
+
+```
+yarn
+```
+
+> Deploy
+
+```
+yarn hardhat deploy
+```
+
+## Testing
+
+```
+yarn hardhat test
+```
+
+# Functions
+
 1. Create a decentralized NFT Marketplace
    1. `listItem`: List NFTs on the marketplace ✅
    2. `buyItem`: Buy the NFTs ✅

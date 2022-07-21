@@ -53,10 +53,7 @@ module.exports = {
         },
         rinkeby: {
             url: RINKEBY_RPC_URL,
-            accounts: PRIVATE_KEY !== undefined ? [PRIVATE_KEY] : [],
-            //   accounts: {
-            //     mnemonic: MNEMONIC,
-            //   },
+            accounts: [PRIVATE_KEY],
             saveDeployments: true,
             chainId: 4,
             blockConfirmations: 6,
