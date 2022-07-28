@@ -2,7 +2,7 @@
 
 # Usage
 
-> install dependancies
+> install dependencies
 
 ```
 yarn
